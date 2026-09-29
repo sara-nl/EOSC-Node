@@ -18,7 +18,7 @@
 2. Activate OCM invites: \
           `occ config:app:set --value 1 contacts ocm_invites_enabled`
 3. Set the url of the mesh providers service: \
-          `occ config:app:set --value {MESH_PROVIDERS_SERVICE_URL contacts mesh_providers_service` \
+          `occ config:app:set --value {MESH_PROVIDERS_SERVICE_URL} contacts mesh_providers_service` \
 The final `MESH_PROVIDERS_SERVICE_URL` is yet to be published. We have a test url ([here](https://ocm-invitation-workflow-mgmt-app.data.surf.nl/external-ocm-servers.json)) for you to test your installation. \
 \
 **\*** See [Available settings](#available-settings) for all available (optional) settings.
