@@ -40,7 +40,7 @@ The final `MESH_PROVIDERS_SERVICE_URL` is yet to be published. We have a test ur
   And check the cache contents again.
 - When a provider that should be, but is not, listed on the WAYF page, it may be that it is not discoverable. \
   To verify that a provider is discoverable, navigate to:  \
-            `https://{fqdn_provider}/.well-knowm/ocm`
+            `https://{fqdn_provider}/.well-known/ocm`
 
 ---
 
