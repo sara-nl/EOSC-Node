@@ -65,7 +65,7 @@ The final `MESH_PROVIDERS_SERVICE_URL` is yet to be published. We have a test ur
 
 #### Notes:
 
-1. A bug has been discovered that potentially removes the invitations table previously created by the Contacts app when the server is upgraded to the required version. This bug has been dealt with and the fix will also be available in the upcoming updates for each of the stable releases (33, 34, 35). \
+1. There is a bug that potentially removes the invitations table previously created by the Contacts app when the server is upgraded to the required version. This bug has been dealt with and the fix will also be available in the upcoming updates for each of the stable releases (33, 34, 35). \
 Note that the issue will only occur when the invitations table is empty. \
 To mitigate this bug, at this moment it is highly recommended to install the required version of the Contacts app after! the server has been upgraded to one of its required versions. \
 Should the issue happen anyway, then the solution is as follows: \
